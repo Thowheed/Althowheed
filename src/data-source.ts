@@ -3,11 +3,15 @@ import { createConnection, useContainer } from "typeorm"
 import { createConnections } from "typeorm-plus";
 import { Container } from "typeorm-typedi-extensions";
 
+
+
+//to start use command given below
+//npm run-script build
+//npm start
 let connections;
 export async function connect() {
     try {
-
-            const AppDataSource = Object.assign({
+        const AppDataSource = Object.assign({
             type: "sqlite",
             database: "C:/Learnings/Learnings/assgn.db/assgn.sqlite",
             synchronize: false,
