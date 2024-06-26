@@ -9,7 +9,7 @@ export async function connect() {
 
             const AppDataSource = Object.assign({
             type: "sqlite",
-            database: "C:/Learnings/assgn.db/assgn.sqlite",
+            database: "C:/Learnings/Learnings/assgn.db/assgn.sqlite",
             synchronize: false,
             logging: "all",
             entities: [__dirname + "/entity/*.js"],
