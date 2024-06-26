@@ -4,4 +4,6 @@ Steps to run this project:
 
 1. Run `npm i` command
 2. Setup database settings inside `data-source.ts` file
-3. Run `npm start` command
+3. Run `npm run-script build` to build the ts file.
+4. Run `npm start` command.
+5. 
